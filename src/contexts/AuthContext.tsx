@@ -60,6 +60,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         // Clear any invalid stored data
         apiService.logout();
         setUser(null);
+      } finally {
+        // Always set loading to false after initialization
+        setLoading(false);
       }
     };
 
