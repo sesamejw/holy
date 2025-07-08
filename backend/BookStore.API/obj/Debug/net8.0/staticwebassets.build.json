@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "w70n0P138MQEzHk6eNQatjYgJSc9pgQU1B0uKPIULSQ=",
+  "Source": "BookStore.API",
+  "BasePath": "_content/BookStore.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookStore.API\\wwwroot",
+      "Source": "BookStore.API",
+      "ContentRoot": "C:\\Users\\kjay computers\\Downloads\\project-bolt-github-vcobgkhd\\project\\backend\\BookStore.API\\wwwroot\\",
+      "BasePath": "_content/BookStore.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
