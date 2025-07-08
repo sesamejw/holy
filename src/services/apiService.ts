@@ -7,7 +7,7 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
 // Define the base URL for the API - this should match your .NET Core API URL
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://localhost:5001/api';
 
 /**
  * Interface definitions for API request/response types
